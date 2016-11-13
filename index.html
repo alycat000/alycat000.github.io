@@ -11,10 +11,29 @@
         }
         
         nav {
-            color: #7eda00
+            color: #7eda00;
         }
-        #join_us {
-            text-align:center;
+        #section1, #section2{
+            display:flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
+        .right,.left{
+            width:48%;
+            flex: 1 0 15em;
+        }
+        
+        #section1, #section2 p,h2{
+            text-align: center;
+        }
+        
+        .section3{
+        text-align: center
+        }
+        
+        img {
+            max-width:100%;
         }
         
         #section2 {
@@ -38,22 +57,43 @@
         }
         
         .section2text {
-            color: #b20081
+            color: #b20081;
+            margin-right: -100px;
         }
         
         #content {
-            width:
-            960px;
+            width:960px;
             margin: 0 auto;
         }
-        
-      
         
         body {
             font-family: arial alt= cursive alt=fantasy;
         }
         p {
-            width: 40%;
+            width:48%;
+        }
+        .right img{
+            padding: 20px;
+        }
+        .left img{
+            padding: 10px;
+        }
+         #joinus{
+            padding-top: 10px;
+        }
+        #joinus p{
+            margin-left: 250px;
+        }
+        .final_picture{
+            padding-top:15px;
+            padding-bottom: 20px;
+        }
+         .footer{
+            display:flex;  
+             justify-content: space-around;
+        }
+        .footer img{
+            height:45px;
         }
     </style>
 
@@ -77,47 +117,43 @@
 
         </nav>
 
-        <div>
-            <img src="http://brothert.net/dryoar/images/littlecolorado-wide.jpg" alt="gorgeous view of water rafting">
+        <div  class="fullwidth">
+            <img src="http://brothert.net/dryoar/images/littlecolorado-wide.jpg" alt="gorgeous view of water rafting" width=100%;>
 
         </div>
 
-        <section>
-
-            <article>
+        <section id= "section1">
+            <div class="left">
                 <h2>Our Motto</h2>
                 <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-            </article>
-            <div>
+            </div> 
+            <div class="right">
                 <img src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="calm lake with borgeous buttes in the background.">
 
             </div>
         </section>
         <section id="section2">
-
-            <article>
+                <div class="left">
+                <img src="http://brothert.net/dryoar/images/salmon-boats.jpg" alt=" gorgeous mountains and lovely lake" height=300>
+                </div>
+                <div class="right">
                 <h2>This Doesn't Mean we Don't Have Fun</h2>
 
                 <p class="section2text">That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
-            </article>
-            <div>
-                <img src="http://brothert.net/dryoar/images/salmon-boats.jpg" alt=" gorgeous mountains and lovely lake" height=300>
-
-            </div>
+                </div>
         </section>
-        <section>
-            <article id="join_us">
+        <section class=section3>
+            <div id="joinus">
                 <h2>Join Us</h2>
 
                 <p>We invite you to com relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
-            </article>
+                </div>    
 
-            <div>
+            <div class="final_picture">
                 <img src="http://brothert.net/dryoar/images/desolation-interest.jpg" alt="people kayaking in beautiful scenerey.">
             </div>
-        </section>
-    </div>
-
+    </section>
+<div class="footer">
     <p>&copy; 2016 Dry Oar // Alyssa Kerby</p>
 
     <footer>
@@ -128,6 +164,8 @@
             <img src="twitter.png" alt="twitterlink">
         </a>
     </footer>
+        </div>
+    </div>
 </body>
 
 
