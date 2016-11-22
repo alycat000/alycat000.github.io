@@ -1,15 +1,57 @@
- nav {
-            background-color: #0a37a0
+
+#logo{
+
+    background: white;
+    position:relative;
+    width: 110px;
+    border:1px solid black;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+        nav > ul{
+background-color: #0a37a0;
+            list-style-type: none;
+            display:flex;
+            flex-flow: row wrap;
+            line-height: 3em;
+
         }
-        
+        nav li{
+            flex:1 1 8em;
+        }
+
         nav {
             color: #7eda00;
-        }
+            margin-top:-90px;
+            
+        } 
+nav a {
+    padding:.85em;
+}
+
+nav a:link, nav a:visited{
+    color:#7eda00;
+    text-decoration: none;
+}  
+
+nav a:hover{
+    color:white;
+    background-color:#7eda00;
+}
+
+}
+nav{
+    padding-left: 70px;
+}
         #section1, #section2{
             display:flex;
             flex-flow: row wrap;
             align-items: center;
-        }
+}
+body{
+    background-color:dodgerblue;
+}
         
         .right,.left{
             width:48%;
@@ -38,6 +80,10 @@
             margin-top: 30px;
         }
         
+#section1,.section3{
+    color: white;
+}
+
         h1,
         h2,
         h3,
@@ -49,8 +95,11 @@
         }
         
         .section2text {
-            color: #b20081;
+            color: white;
             margin-right: -100px;
+            width: 90%;
+            text-align: center;
+            
         }
         
         #content {
@@ -61,9 +110,7 @@
         body {
             font-family: arial alt= cursive alt=fantasy;
         }
-        p {
-            width:48%;
-        }
+       
         .right img{
             padding: 20px;
         }
@@ -79,9 +126,6 @@
          #joinus{
             padding-top: 10px;
         }
-        #joinus p{
-            margin-left: 250px;
-        }
         .final_picture{
             padding-top:15px;
             padding-bottom: 20px;
@@ -89,7 +133,9 @@
          .footer{
             display:flex;  
              justify-content: space-around;
+             background-color: #0a37a0;
         }
         .footer img{
             height:45px;
+            padding-top: 5px;
         }
