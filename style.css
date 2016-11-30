@@ -40,9 +40,8 @@ nav a:hover{
     background-color:#7eda00;
 }
 
-}
-nav{
-    padding-left: 70px;
+nav ul{
+    margin-left:90px;
 }
         #section1, #section2{
             display:flex;
@@ -83,13 +82,7 @@ body{
 #section1,.section3{
     color: white;
 }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
+h1,h2,h3,h4,h5,h6{
             color: #7eda00;
             font-family: georgia alt= sans-serif alt= monospace;
         }
@@ -144,3 +137,50 @@ body{
         color:white;
     
         }
+
+.faqheadline{
+    background: #0a37a0;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 48%;
+    margin-left: 250px;
+    color:white;
+}
+
+.thecontent h2{
+    color:white;
+    background-color: #0a37a0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.thecontent p{
+    color:purple:
+}
+.rivers1{
+margin-top: -400px;
+    position: absolute;
+    margin-left: 425px;
+    margin-right: 300px;
+}
+.img1{
+    margin-left: 100px;
+}
+#h1thefirst{
+    margin-left: 100px;
+    background-color: white;
+}
+.rivers2{
+    position:absolute;
+    margin-top: -300px;
+    margin-left: 525px;
+    margin-right:200px;
+}
+h1thesecond{
+    padding-left: 4em;
+}
+.rivers3{
+    position:absolute;
+    margin-top: -300px;
+    margin-left: 525px;
+    margin-right:200px;
+}
