@@ -161,6 +161,7 @@ margin-top: -400px;
     position: absolute;
     margin-left: 425px;
     margin-right: 300px;
+    width: 40%;
 }
 .img1{
     margin-left: 100px;
@@ -171,18 +172,20 @@ margin-top: -400px;
 }
 .rivers2{
     position:absolute;
-    margin-top: -300px;
+    margin-top: -350px;
     margin-left: 525px;
     margin-right:200px;
+    width: 40%;
 }
 h1thesecond{
     padding-left: 4em;
 }
 .rivers3{
     position:absolute;
-    margin-top: -300px;
+    margin-top: -350px;
     margin-left: 525px;
     margin-right:200px;
+    width: 40%;
 }
 .img3{
     padding-bottom: 20px;
